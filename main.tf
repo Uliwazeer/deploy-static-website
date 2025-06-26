@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 provider "aws" {
   region = var.region
 }
@@ -208,4 +208,4 @@ resource "aws_cloudfront_distribution" "cdn" {
     Name = "CloudFront for ${var.bucket_name}"
   }
 }
->>>>>>> 257e586 (deploy)
+
